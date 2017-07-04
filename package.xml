@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>pal_text_to_speech_tutorials</name>
+  <version>1.0.0</version>
+  <description>Text to speech tutorials for PAL Robotics robots</description>
+
+  <maintainer email="victor.lopez@pal-robotics.com">Victor Lopez</maintainer>
+  <license>BSD</license>
+
+  <author email="victor.lopez@pal-robotics.com">Victor Lopez</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>actionlib</build_depend>
+  <build_depend>pal_interaction_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+
+  <run_depend>actionlib</run_depend>
+  <run_depend>pal_interaction_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+
+</package>
